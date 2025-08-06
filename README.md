@@ -612,6 +612,10 @@ We also provide some pre-configured profiles for certain HPC environments:
 
 ## Known bugs and issues
 
+### Don't name your reference genome file `reference.fa`
+
+Internally, this will cause problems because of how RNAflow renames the file for processing. Please use another name (anyway, it's a good idea to be more descriptive in your file names). 
+
 ### Problems with `SortMeRNA`/ `HISAT2` error ([#141](https://github.com/hoelzer-lab/rnaflow/issues/141), [#116](https://github.com/hoelzer-lab/rnaflow/issues/116))
 
 #### Description
