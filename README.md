@@ -710,7 +710,7 @@ Command error:
 
 #### Description
 
-Latency related problems with `Nextflow` might occur when running on HPC systems, where `Nextflow` expects files to be available before they are fully written to the file system. In these cases `Nextflow` might get stuck or report missing output or input files to some processes:
+Latency-related problems with `Nextflow` might occur when running on HPC systems, where `Nextflow` expects files to be available before they are fully written to the file system. In these cases, `Nextflow` might get stuck or report missing output or input files to some processes:
  
 
 ```
